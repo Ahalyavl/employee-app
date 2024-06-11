@@ -5,11 +5,11 @@ import axios from 'axios'
 const ViewEmployee = () => {
     const [data, changeData] = useState([])
     const fetchdata = () => {
-      axios.get("https://friendsapi-re5a.onrender.com/view").then((response)=>{
+      axios.get("http://localhost:8081/view").then((response)=>{
         changeData(response.data)
         console.log(response.data)
       }).catch ((error)=>{
-        alert.apply(error.message)
+        alert(error.message)
       })
     }
 
