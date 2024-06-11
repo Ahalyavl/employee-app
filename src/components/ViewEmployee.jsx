@@ -26,7 +26,7 @@ const ViewEmployee = () => {
                             <thead>
                                 <tr>
                                     <th scope="col">EMPLOYEE ID </th>
-                                        <th scope="col">FIRSTST NAME</th>
+                                        <th scope="col">FIRST NAME</th>
                                         <th scope="col">LAST NAME</th>
                                         <th scope="col">DOB</th>
                                         
